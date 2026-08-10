@@ -77,6 +77,49 @@ Dataset
 → Churn Prediction
 → Retention Recommendation
 
+
+                    CUSTOMER CHURN
+                          │
+                          ▼
+                    7,043 Customers
+                          │
+                          ▼
+                    Data Cleaning
+                          │
+                          ▼
+                         EDA
+                          │
+          ┌───────────────┼───────────────┐
+          ▼               ▼               ▼
+       Contract        Tenure         Monthly Cost
+          │               │               │
+          └───────────────┼───────────────┘
+                          ▼
+                    Feature Engineering
+                          │
+          ┌───────────────┼───────────────┐
+          ▼               ▼               ▼
+       Logistic        Random          XGBoost
+      Regression       Forest
+          │               │               │
+          └───────────────┼───────────────┘
+                          ▼
+                   Model Comparison
+                          │
+                          ▼
+                     Best Model
+                          │
+                          ▼
+                 Churn Probability
+                          │
+              ┌───────────┼───────────┐
+              ▼           ▼           ▼
+             LOW        MEDIUM       HIGH
+                          │
+                          ▼
+                Retention Strategy
+
+
 ## 🛠️ Technologies
 
 - Python
