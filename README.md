@@ -98,8 +98,7 @@ customer-churn-prediction/
 ├── requirements.txt
 ├── models/
 ├── results/
-└── data/
 
 ## 👨‍💻 Author
 
-Your Name
+Aditya Pandit
